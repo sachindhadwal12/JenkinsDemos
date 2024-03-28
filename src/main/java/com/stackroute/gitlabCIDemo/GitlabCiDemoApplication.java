@@ -17,7 +17,6 @@ public class GitlabCiDemoApplication {
 	public String getUser(){
 		return "Hello All Users";
 	}
-
 	@GetMapping("admin")
 	public String getAdmin(){
 		return "Hello Admin";
